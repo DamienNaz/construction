@@ -1,5 +1,6 @@
 "use client";
 
+import { Link as ScrollLink } from "react-scroll";
 import Pretitle from "./Pretitle";
 import { useState } from "react";
 import { Tabs, TabsList, TabsContent, TabsTrigger } from "@/components/ui/tabs";
@@ -152,7 +153,9 @@ const Service = () => {
                       </li>
                     ))}
                   </ul>
+                  <ScrollLink to="contacts" smooth={true} duration={500}>
                   <Button text="Fale Connosco" />
+                  </ScrollLink>
                 </div>
 
                 {/* Right: Images */}

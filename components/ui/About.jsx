@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Pretitle from "./Pretitle";
 import Button from "./Button";
+import { Link as ScrollLink } from "react-scroll";
 
 const About = () => {
   return (
@@ -16,7 +17,9 @@ const About = () => {
               <Image src="/assets/img/about/signature1.svg" width={154} height={38} alt=""/>
               <p className="flex-1 xl:flex xl:justify-center">Diretor Executivo</p>
             </div>
+            <ScrollLink to="contacts" smooth={true} duration={500}>
             <Button text="Contacte-nos" />
+            </ScrollLink>
           </div>
         </div>
         <div className="flex-1 xl:flex xl:justify-center">
