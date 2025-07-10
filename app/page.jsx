@@ -13,7 +13,7 @@ import Faq from "@/components/ui/Faq";
 import Contact from "@/components/ui/Contact";
 import Footer from "@/components/ui/Footer";
 import PartnersSwipper from "@/components/ui/PartnersSwiper";
-import ChatDiagnostic  from "@/components/ui/simulador";
+import ChatDiagnostic  from "@/components/ui/Simulador";
 
 
 const Home = () => {
