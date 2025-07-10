@@ -13,7 +13,7 @@ import Faq from "@/components/ui/Faq";
 import Contact from "@/components/ui/Contact";
 import Footer from "@/components/ui/Footer";
 import PartnersSwipper from "@/components/ui/PartnersSwiper";
-import Simulador from "@/components/ui/simulador";
+import ChatDiagnostic  from "@/components/ui/simulador";
 
 
 const Home = () => {
@@ -40,7 +40,7 @@ const Home = () => {
       <Stats />
       <Service />
       <PartnersSwipper/>
-      <Simulador/>
+      <ChatDiagnostic />
       <Work />
       <Testimonials />
       <Faq />
