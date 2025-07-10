@@ -24,7 +24,7 @@ const Footer = () => {
           <div className="flex-shrink-0">
             <Link href="/" className="inline-block">
               <Image
-                src="/assets/logo1.PNG"
+                src="/assets/logo1.png"
                 width={120}
                 height={40}
                 alt="UrbanBuild"

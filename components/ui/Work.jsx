@@ -5,25 +5,25 @@ import { RiArrowRightUpLine, RiCheckboxCircleFill } from "react-icons/ri";
 
 const workData = [
   {
-    img: "/assets/img/work/avac.PNG",
+    img: "/assets/img/work/avac.png",
     name: "AVAC",
     description: "Soluções eficientes",
     href: "#",
   },
   {
-    img: "/assets/img/work/canalizacao.PNG",
+    img: "/assets/img/work/canalizacao.png",
     name: "Canalização",
     description: "Instalações e reparações",
     href: "#",
   },
   {
-    img: "/assets/img/work/obras.PNG",
+    img: "/assets/img/work/obras.png",
     name: "Pequenas Obras",
     description: "Remodelações",
     href: "#",
   },
   {
-    img: "/assets/img/work/solar.PNG",
+    img: "/assets/img/work/solar.png",
     name: "Painéis Solares",
     description: "Energia limpa",
     href: "#",

@@ -22,7 +22,7 @@ const About = () => {
         <div className="flex-1 xl:flex xl:justify-center">
           <div className="xl:w-[444px] xl:h-[493px] relative">
             <div className="hidden xl:flex w-[444px] h-[493px] bg-accent absolute -top-4 -left-4 -z-10"></div>
-          <Image src={"/assets/img/about/img.PNG"} width={444} height={493} alt="" className="object-cover"/>
+          <Image src={"/assets/img/about/img.png"} width={444} height={493} alt="" className="object-cover"/>
           </div>
         </div>
 
