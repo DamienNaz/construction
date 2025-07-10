@@ -12,6 +12,9 @@ import Testimonials from "@/components/ui/Testimonials";
 import Faq from "@/components/ui/Faq";
 import Contact from "@/components/ui/Contact";
 import Footer from "@/components/ui/Footer";
+import PartnersSwipper from "@/components/ui/PartnersSwiper";
+import Simulador from "@/components/ui/simulador";
+
 
 const Home = () => {
   const [headerActive, setHeaderActive] = useState(false);
@@ -36,6 +39,8 @@ const Home = () => {
       <About />
       <Stats />
       <Service />
+      <PartnersSwipper/>
+      <Simulador/>
       <Work />
       <Testimonials />
       <Faq />

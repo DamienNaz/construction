@@ -38,7 +38,7 @@ const Work = () => {
         <div className="text-left mb-12">
           <div className="w-full h-[1px] bg-border mb-6"></div>
           <Pretitle text={"Projetos"} />
-          <h2 className="h2 mb-3">Conheça o Nosso Trabalho</h2>
+          <h2 className="h2 mb-3">Projetos Realizados</h2>
           <p className="max-w-[480px] text-left">
             Soluções técnicas adaptadas a cada necessidade. Descubra alguns dos projetos que já concretizámos.
           </p>

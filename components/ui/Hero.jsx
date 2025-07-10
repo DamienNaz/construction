@@ -9,7 +9,7 @@ const Hero = () => {
       <div className="container mx-auto h-full flex items-center">
         <div className="z-20 text-white text-center xl:text-left mx-auto xl:mx-0 flex flex-col items-center xl:items-start max-w-[608px]">
           <h1 className="h1 text-white mb-4">
-            <span className="text-accent">Construir</span> Soluções robustas e duradouras
+            <span className="text-accent">Construir</span> Soluções duradouras
           </h1>
           <p className="mb-9">
             Desde o conceito até à conclusão, garantimos que cada detalhe seja optimizado para a robustez e durabilidade, criando soluções que inspiram confiança e permanecem firmes ao longo dos anos.

@@ -11,10 +11,10 @@ const About = () => {
         <div className="flex-1">
           <div className="max-w-[540px]">
             <Pretitle text="Sobre nós"/>
-            <h2 className="h2 mb-6">Focados na excelência em cada projeto</h2>
+            <h2 className="h2 mb-6">Foco na excelência </h2>
             <p className="mb-11">Levamos cada projeto com dedicação, garantindo qualidade, inovação e atenção ao detalhe.</p>
             <div className="w-max flex flex-col text-right mb-10">
-              <Image src="/assets/img/about/signature1.svg" width={154} height={38} alt=""/>
+              <Image src="/assets/img/about/signature1.svg" width={160} height={60} alt=""/>
               <p className="flex-1 xl:flex xl:justify-center">Diretor Executivo</p>
             </div>
             <ScrollLink to="contacts" smooth={true} duration={500}>
