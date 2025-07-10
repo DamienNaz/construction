@@ -18,7 +18,7 @@ const Slider = () => {
           <div className="px-12 md:pl-[60px] flex items-center gap-9 h-full">
             <div className="relative hidden xl:flex w-[90px] h-[90px]">
               <Image
-                src="/assets/img/testimonials/avatar1.PNG"
+                src="/assets/img/testimonials/avatar1.png"
                 fill
                 className="object-contain"
                 quality={100}
@@ -38,7 +38,7 @@ const Slider = () => {
           <div className="px-12 md:pl-[60px] flex items-center gap-9 h-full">
             <div className="relative hidden xl:flex w-[90px] h-[90px]">
               <Image
-                src="/assets/img/testimonials/avatar.PNG"
+                src="/assets/img/testimonials/avatar.png"
                 fill
                 className="object-contain"
                 quality={100}
@@ -58,7 +58,7 @@ const Slider = () => {
           <div className="px-12 md:pl-[60px] flex items-center gap-9 h-full">
             <div className="relative hidden xl:flex w-[90px] h-[90px]">
               <Image
-                src="/assets/img/testimonials/avatar3.PNG"
+                src="/assets/img/testimonials/avatar3.png"
                 fill
                 className="object-contain"
                 quality={100}
