@@ -20,10 +20,10 @@ const Form = () => {
         <Input type="tel" placeholder="Telefone" />
 
         <Select>
-          <SelectTrigger className="flex h-[54px] w-full rounded-none border border-border bg-white px-6 py-2 text-base text-primary shadow-sm transition-colors placeholder:text-secondary focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-neutral-950 disabled:cursor-not-allowed disabled:opacity-50 md:text-sm dark:border-neutral-800 dark:placeholder:text-neutral-400 dark:focus-visible:ring-neutral-300">
+          <SelectTrigger className="flex h-[54px] w-full rounded-none border border-border bg-white px-6 py-2 text-base text-primary shadow-sm transition-colors placeholder:text-secondary focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-neutral-950 disabled:cursor-not-allowed disabled:opacity-50 md:text-sm dark:border-neutral-800 dark:placeholder:text-neutral-400 dark:focus-visible:ring-neutral-300 ">
             <SelectValue placeholder="Selecciona o serviço" />
           </SelectTrigger>
-          <SelectContent side="right" align="start" className="w-[200px]">
+          <SelectContent  align="start" className="w-[200px] translate-x-28">
 
             <SelectGroup>
               <SelectItem value="construction">AVAC</SelectItem>
@@ -38,7 +38,7 @@ const Form = () => {
       {/* Message + Button */}
       <div className="flex flex-col gap-4 mt-4 justify-center">
         <Textarea
-          className="h-[180px] resize-none rounded-none text-primary font-semibold "
+          className="h-[180px] resize-none rounded-none text-primary font-semibold"
           placeholder="Mensagem"
         />
         <Button text="Enviar" />

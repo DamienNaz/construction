@@ -1,6 +1,7 @@
 import { DM_Sans, Barlow} from "next/font/google";
 import "./globals.css";
 import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 
 const dmSans = DM_Sans({
@@ -25,7 +26,8 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={`${dmSans.variable} ${barlow.variable} antialiased`}>
         {children}
-        <Analytics /> {/* 👈 Aqui no final do body */}
+        <Analytics /> 
+        <SpeedInsights/>
       </body>
     </html>
   );
